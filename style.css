@@ -1,0 +1,20 @@
+.square{
+    border-style: solid;
+    border-width: thin;     
+    
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(16, minmax(5%, 1fr));    
+    grid-gap: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#test{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
